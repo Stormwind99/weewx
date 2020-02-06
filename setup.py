@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 #    weewx --- A simple, high-performance weather station server
 #

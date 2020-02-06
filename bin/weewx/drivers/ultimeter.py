@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Copyright 2014 Matthew Wall
 # Copyright 2014 Nate Bargmann <n0nb@n0nb.us>
