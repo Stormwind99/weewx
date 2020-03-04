@@ -52,8 +52,18 @@
 %define html_root /var/www/html/weewx
 %endif
 
+%define rh8like 0
+
 # rh8: python3 on redhat, fedora, centos
 %if "%{_vendor}" == "redhat" && "%{os_target}" == "8"
+%define rh8like 1
+%endif
+
+%if 0%{?fedora}
+%define rh8like 1
+%endif
+
+%if 0%{?rh8like}
 %define relos .el8
 %define platform redhat
 %define initdir %{_unitdir}
